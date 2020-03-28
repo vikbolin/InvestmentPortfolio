@@ -10,31 +10,31 @@ public class Contact {
 	private String getFirstName() {
 		return firstName;
 	}
-	private void setFirstName(String firstName) {
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	private String getLastName() {
+	public String getLastName() {
 		return lastName;
 	}
-	private void setLastName(String lastName) {
+	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	private String getMiddleName() {
+	public String getMiddleName() {
 		return middleName;
 	}
-	private void setMiddleName(String middleName) {
+	public void setMiddleName(String middleName) {
 		this.middleName = middleName;
 	}
-	private String getEmail() {
+	public String getEmail() {
 		return email;
 	}
-	private void setEmail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
-	private String getPhone() {
+	public String getPhone() {
 		return phone;
 	}
-	private void setPhone(String phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 
